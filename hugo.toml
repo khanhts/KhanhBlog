@@ -1,3 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://khanhblog.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Khanh Blog'
+
+[params]
+  author = "Your Name"
+  description = "This is my Hugo-powered site"

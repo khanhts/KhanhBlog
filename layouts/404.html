@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="error-page">
+    <div class="container">
+        <h1>Oops! Page Not Found</h1>
+        <p>Sorry, the page you are looking for does not exist. It might have been moved, deleted, or the URL could be incorrect.</p>
+
+        <h2>What can you do?</h2>
+        <ul>
+            <li><a href="{{ .Site.BaseURL }}">Go back to the homepage</a></li>
+            <li><a href="{{ .Site.BaseURL }}#search">Search for content on the site</a></li>
+        </ul>
+
+        <div class="search-box">
+            <h3>Search the Site:</h3>
+            <form action="{{ .Site.BaseURL }}search/" method="get">
+                <input type="text" name="q" placeholder="Search..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</section>
+{{ end }}

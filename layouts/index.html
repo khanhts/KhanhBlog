@@ -1,0 +1,29 @@
+{{ define "main" }}
+<!-- Banner Section -->
+<section class="banner" style="background-image: url('{{ .Site.BaseURL }}images/code-bg.jpg');">
+    <div class="overlay">
+        <div class="banner-content">
+            <h1>Welcome to {{ .Site.Title }}</h1>
+            <p>Your go-to site for insightful content and articles.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Latest Posts Section -->
+<section class="latest-posts">
+    <h2>Latest Posts</h2>
+    <div class="post-list">
+        {{ range first 3 .Pages }}
+            <div class="post-item">
+                <a href="{{ .Permalink }}">
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Summary }}</p>
+                </a>
+                
+            </div>
+        {{ else }}
+            <p>No posts available.</p>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
