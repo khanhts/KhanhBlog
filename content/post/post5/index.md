@@ -3,7 +3,7 @@ title = "Tạo Socket bằng Java"
 date = "2024-12-12"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/javasocket.jpg"
+image = "/images/javasocket.jpg"
 +++
 
 ## Socket trong Java

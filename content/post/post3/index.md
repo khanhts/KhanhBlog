@@ -3,7 +3,7 @@ title = "Giới thiệu về Javascript"
 date = "2024-11-30"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/jslagi.jpg"
+image = "/images/jslagi.jpg"
 +++
 
 ## JavaScript là gì?

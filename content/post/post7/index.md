@@ -3,7 +3,7 @@ title = "Java RMI"
 date = "2024-12-21"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/rmijava.jpg"
+image = "/images/rmijava.jpg"
 +++
 
 ## Thế nào là RMI và làm sao để tạo bằng java

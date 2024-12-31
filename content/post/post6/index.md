@@ -3,7 +3,7 @@ title = "Xử lý sự kiện thông qua JS"
 date = "2024-12-15"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/jsehandler.jpg"
+image = "/images/jsehandler.jpg"
 +++
 
 ## Thế nào là sự kiện và áp dụng JS như thế nào?

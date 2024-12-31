@@ -3,7 +3,7 @@ title = "Java là gì?"
 date = "2024-12-30"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/javalagi.jpg"
+image = "/images/javalagi.jpg"
 +++
 
 ## Java là gì

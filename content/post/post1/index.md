@@ -3,7 +3,7 @@ title = "Java và Javascipt. Liệu có phải là một?"
 date = "2024-11-01"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/jsvsjava.jpg"
+image = "/images/jsvsjava.jpg"
 +++
 
 ![Java và JavaScript!](/KhanhBlog/images/jsvsjava.jpg)

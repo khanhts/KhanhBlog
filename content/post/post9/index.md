@@ -3,7 +3,7 @@ title = "Tương tác giữa JavaScript và CSS"
 date = "2024-12-24"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/cssjs.jpg"
+image = "/images/cssjs.jpg"
 +++
 
 ## JavaScript và CSS

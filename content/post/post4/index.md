@@ -3,7 +3,7 @@ title = "Java OOP"
 date = "2024-12-06"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/oopjava.jpg"
+image = "/images/oopjava.jpg"
 +++
 
 ## OOP là gì?

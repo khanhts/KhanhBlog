@@ -3,7 +3,7 @@ title = "Tương tác giữa JavaScript và HTML"
 date = "2024-12-20"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/KhanhBlog/images/jshtml.jpg"
+image = "/images/jshtml.jpg"
 +++
 
 ## JaaScript và HTML
