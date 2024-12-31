@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="banner" style="background-image: url('{{ .Site.BaseURL }}images/code-bg.jpg');">
+    <div class="overlay">
+        <div class="banner-content">
+            <h1>Welcome to {{ .Site.Title }}</h1>
+            <p>Your go-to site for insightful content and articles.</p>
+        </div>
+    </div>
+</section>
+
+<section class="latest-posts">
+    <h2 class="section-title">Latest Posts</h2>
+    <div class="post-cards">
+        {{ $posts := where .Site.Pages "Section" "post" }}
+        {{ $filteredPosts := where $posts "Kind" "page" }}
+        {{ $sortedPosts := sort $filteredPosts ".Date" "desc" }}
+        {{ range first 6 $sortedPosts }}
+            <div class="card-container">
+                <div class="card-info">
+                    {{ if .Params.image }}
+                        <img src="{{ .Params.image | relURL }}" class="card-img-top square-image" alt="{{ .Title }}">
+                    {{ else }}
+                        <img src="{{ .Site.BaseURL }}images/default-image.jpg" class="card-img-top square-image" alt="Default Image">
+                    {{ end }}
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h5>
+                        <p class="card-text">
+                            <small>Published on {{ .Date.Format "January 2, 2006" }}</small>
+                        </p>
+                        <div class="summary-text">
+                            {{ .Summary }}
+                        </div>
+                    </div>
+                </div>
+                <div class="card-option">
+                    <a href="{{ .Permalink }}">Read More</a>
+                </div>
+            </div>
+        {{ else }}
+            <p>No posts available.</p>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

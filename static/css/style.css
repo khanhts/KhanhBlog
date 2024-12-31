@@ -1,0 +1,185 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as necessary */
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner .banner-content h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.banner .banner-content p {
+    font-size: 1.25rem;
+}
+
+/* Latest Posts Section */
+.latest-posts {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.latest-posts h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.post-list, .post-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post-item {
+    flex: 1 1 30%; /* Adjust to control the number of posts per row */
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.post-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.post-item a, .card-body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-item a:hover,  .card-body a:hover{
+    text-decoration: underline;
+}
+
+.post-content{
+    padding: 10px 20px;
+}
+
+.post-content p, .post-content li{
+    font-size: 1.25rem;
+}
+
+/* Custom Post Card Style */
+
+.card-container{
+    flex: 1 1 25%;
+    padding: 1.5rem;
+    max-height: 30rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.square-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* This ensures the image fills the square without distortion, cropping if necessary */
+    border-radius: 8px;
+}
+
+/* Ensure text and meta data within the card are properly styled */
+.card-title{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;  /* Limits the summary to 3 lines */
+    -webkit-box-orient: vertical;
+}
+
+.card-meta {
+    font-size: 0.875rem;
+    color: #999;
+}
+
+.card-meta a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-meta a:hover {
+    text-decoration: underline;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
+
