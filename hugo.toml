@@ -1,7 +1,3 @@
 baseURL = 'https://khanhblog.com/'
-languageCode = 'en-us'
+languageCode = 'vi-vn'
 title = 'Khanh Blog'
-
-[params]
-  author = "Your Name"
-  description = "This is my Hugo-powered site"

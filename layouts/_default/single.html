@@ -1,6 +1,21 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<article>
-    {{ .Content }}
+<article class="post">
+    <!-- Post Title -->
+    <header class="post-header">
+        <h1>{{ .Title }}</h1>
+        <p class="card-text">
+            <small>Published on {{ .Date.Format "January 2, 2006" }}</small>
+        </p>
+    </header>
+
+    <!-- Post Content -->
+    <section class="post-content">
+        {{ .Content }}
+    </section>
+
+    <!-- Author Info (Optional) -->
+    <footer class="post-footer">
+        <p>Viết bởi: <strong>{{ .Params.author }}</strong></p>
+    </footer>
 </article>
 {{ end }}

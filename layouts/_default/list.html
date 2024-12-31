@@ -1,11 +1,27 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<ul>
-    {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <p>{{ .Summary }}</p>
-        </li>
-    {{ end }}
-</ul>
+<div class="container">
+    <div class="post-list">
+        <!-- Loop through each post -->
+        {{ range .Pages }}
+            <div class="post-item">
+                <div class="card square-card">
+                    
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h5>
+                        <p class="card-text">
+                            <small>Published on {{ .Date.Format "January 2, 2006" }}</small>
+                        </p>
+                        <div class="summary-text">
+                            {{ truncate 35 .Summary }}
+                        </div>
+                        <a href="{{ .Permalink }}" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>
 {{ end }}
