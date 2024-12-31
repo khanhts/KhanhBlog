@@ -118,11 +118,20 @@ h1 {
 }
 
 .post-content{
-    padding: 10px 20px;
+    padding: 10px 3rem;
 }
 
 .post-content p, .post-content li{
     font-size: 1.25rem;
+}
+
+img{
+   width: 100%;
+}
+
+.card-info img{
+    margin-left: 6.75rem;
+    width: 50%;
 }
 
 /* Custom Post Card Style */
@@ -155,7 +164,6 @@ h1 {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;  /* Limits the summary to 3 lines */
     -webkit-box-orient: vertical;
 }
 

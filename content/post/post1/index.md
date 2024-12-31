@@ -3,8 +3,11 @@ title = "Java và Javascipt. Liệu có phải là một?"
 date = "2024-11-01"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
+image = "/images/jsvsjava.jpg"
 draft = true
 +++
+
+![Java và JavaScript!](/images/jsvsjava.jpg)
 
 Java và JavaScript là hai ngôn ngữ lập trình khác nhau hoàn toàn, mặc dù tên của chúng có vẻ giống nhau. Dưới đây là sự khác biệt giữa Java và JavaScript:
 
