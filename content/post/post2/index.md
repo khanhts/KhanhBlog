@@ -4,7 +4,6 @@ date = "2024-12-30"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
 image = "/images/javalagi.jpg"
-draft = true
 +++
 
 ## Java là gì

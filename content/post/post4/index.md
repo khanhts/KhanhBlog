@@ -4,7 +4,6 @@ date = "2024-12-06"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
 image = "/images/oopjava.jpg"
-draft = true
 +++
 
 ## OOP là gì?

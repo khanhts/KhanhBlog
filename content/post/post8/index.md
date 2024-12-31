@@ -4,7 +4,6 @@ date = "2024-12-20"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
 image = "/images/jshtml.jpg"
-draft = true
 +++
 
 ## JaaScript và HTML

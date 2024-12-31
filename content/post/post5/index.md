@@ -4,7 +4,6 @@ date = "2024-12-12"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
 image = "/images/javasocket.jpg"
-draft = true
 +++
 
 ## Socket trong Java

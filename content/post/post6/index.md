@@ -4,7 +4,6 @@ date = "2024-12-15"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
 image = "/images/jsehandler.jpg"
-draft = true
 +++
 
 ## Thế nào là sự kiện và áp dụng JS như thế nào?

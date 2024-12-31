@@ -4,7 +4,6 @@ date = "2024-11-30"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
 image = "/images/jslagi.jpg"
-draft = true
 +++
 
 ## JavaScript là gì?

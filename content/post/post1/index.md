@@ -4,7 +4,6 @@ date = "2024-11-01"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
 image = "/images/jsvsjava.jpg"
-draft = true
 +++
 
 ![Java và JavaScript!](/images/jsvsjava.jpg)
