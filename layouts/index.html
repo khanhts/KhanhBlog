@@ -11,14 +11,14 @@
 <section class="latest-posts">
     <h2 class="section-title">Latest Posts</h2>
     <div class="post-cards">
-        {{ $posts := where .Site.Pages "Section" "post" }}
+        {{ $posts := where .Pages "Section" "post" }}
         {{ $filteredPosts := where $posts "Kind" "page" }}
         {{ $sortedPosts := sort $filteredPosts ".Date" "desc" }}
         {{ range first 6 $sortedPosts }}
             <div class="card-container">
                 <div class="card-info">
                     {{ if .Params.image }}
-                        <img src="{{ .Params.image | relURL }}" class="card-img-top square-image" alt="{{ .Title }}">
+                        <img src="{{ .Site.BaseURL }}{{ .Params.image | relURL }}" class="card-img-top square-image" alt="{{ .Title }}">
                     {{ else }}
                         <img src="{{ .Site.BaseURL }}images/default-image.jpg" class="card-img-top square-image" alt="Default Image">
                     {{ end }}
