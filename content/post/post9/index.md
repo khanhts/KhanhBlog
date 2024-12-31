@@ -3,12 +3,12 @@ title = "Tương tác giữa JavaScript và CSS"
 date = "2024-12-24"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/cssjs.jpg"
+image = "/KhanhBlog/images/cssjs.jpg"
 +++
 
 ## JavaScript và CSS
 
-![JavaScript và CSS](/images/cssjs.jpg)
+![JavaScript và CSS](/KhanhBlog/images/cssjs.jpg)
 
 JavaScript có thể tương tác với CSS bằng cách thay đổi các thuộc tính kiểu dáng (CSS properties) của các phần tử HTML trong trang web. Điều này được thực hiện thông qua đối tượng style trong DOM (Document Object Model), cho phép JavaScript thay đổi kiểu dáng của phần tử ngay lập tức mà không cần phải sửa trực tiếp trong các file CSS.
 

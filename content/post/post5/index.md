@@ -3,12 +3,12 @@ title = "Tạo Socket bằng Java"
 date = "2024-12-12"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/javasocket.jpg"
+image = "/KhanhBlog/images/javasocket.jpg"
 +++
 
 ## Socket trong Java
 
-![Java Socket](/images/javasocket.jpg)
+![Java Socket](/KhanhBlog/images/javasocket.jpg)
 
 Socket trong Java là một cơ chế để giao tiếp giữa các ứng dụng, cho phép các ứng dụng trên các máy tính khác nhau kết nối và trao đổi dữ liệu qua mạng. Java cung cấp một API java.net để làm việc với các socket và giao tiếp qua mạng, hỗ trợ cả giao tiếp TCP (Transmission Control Protocol) và UDP (User Datagram Protocol).
 

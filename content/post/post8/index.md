@@ -3,12 +3,12 @@ title = "Tương tác giữa JavaScript và HTML"
 date = "2024-12-20"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/jshtml.jpg"
+image = "/KhanhBlog/images/jshtml.jpg"
 +++
 
 ## JaaScript và HTML
 
-![JavaScript và HTML](/images/jshtml.jpg)
+![JavaScript và HTML](/KhanhBlog/images/jshtml.jpg)
 
 JavaScript (JS) có thể tương tác với HTML thông qua DOM (Document Object Model), một giao diện lập trình ứng dụng (API) cho phép JavaScript truy cập và thao tác với các phần tử HTML của trang web. DOM là một mô hình cây đối tượng của tất cả các phần tử và nội dung trên trang web, nơi mỗi phần tử HTML trở thành một đối tượng có thể được thay đổi, thêm, hoặc loại bỏ bằng JavaScript.
 

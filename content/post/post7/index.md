@@ -3,12 +3,12 @@ title = "Java RMI"
 date = "2024-12-21"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/rmijava.jpg"
+image = "/KhanhBlog/images/rmijava.jpg"
 +++
 
 ## Thế nào là RMI và làm sao để tạo bằng java
 
-![RMI trong Java](/images/rmijava.jpg)
+![RMI trong Java](/KhanhBlog/images/rmijava.jpg)
 
 Java RMI (Remote Method Invocation) là một cơ chế trong Java cho phép các đối tượng Java giao tiếp với nhau và gọi các phương thức từ xa, tức là một đối tượng có thể gọi phương thức của một đối tượng khác mà không cần biết đối tượng đó ở đâu (có thể là trên cùng một máy tính hoặc trên các máy tính khác nhau trong mạng). RMI cho phép các ứng dụng phân tán (distributed applications) tương tác với nhau thông qua các phương thức gọi từ xa (remote method calls).
 

@@ -3,12 +3,12 @@ title = "Java OOP"
 date = "2024-12-06"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/oopjava.jpg"
+image = "/KhanhBlog/images/oopjava.jpg"
 +++
 
 ## OOP là gì?
 
-![OOP in Java](/images/oopjava.jpg)
+![OOP in Java](/KhanhBlog/images/oopjava.jpg)
 
 OOP (Object-Oriented Programming) hay Lập trình hướng đối tượng là một phương pháp lập trình trong đó dữ liệu và các phương thức (hoặc hành vi) được tổ chức thành các đối tượng. Java là một ngôn ngữ lập trình hướng đối tượng thuần túy, nghĩa là hầu hết các ứng dụng Java đều được xây dựng dựa trên các đối tượng. Các nguyên lý cơ bản của OOP trong Java bao gồm Encapsulation (Đóng gói), Inheritance (Kế thừa), Polymorphism (Đa hình), và Abstraction (Trừu tượng).
 

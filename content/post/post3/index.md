@@ -3,12 +3,12 @@ title = "Giới thiệu về Javascript"
 date = "2024-11-30"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/jslagi.jpg"
+image = "/KhanhBlog/images/jslagi.jpg"
 +++
 
 ## JavaScript là gì?
 
-![JavaScript là gì?](/images/jslagi.jpg)
+![JavaScript là gì?](/KhanhBlog/images/jslagi.jpg)
 
 JavaScript là một ngôn ngữ lập trình kịch bản (scripting language) phổ biến, được sử dụng chủ yếu trong phát triển web. JavaScript giúp tạo ra các trang web động, tương tác, và có thể chạy trực tiếp trên trình duyệt mà không cần phải biên dịch, nhờ vào khả năng chạy trực tiếp trong trình duyệt người dùng. Đây là ngôn ngữ lập trình không thể thiếu trong hầu hết các trang web hiện đại, giúp tăng cường trải nghiệm người dùng.
 

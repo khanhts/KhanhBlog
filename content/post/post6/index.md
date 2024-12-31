@@ -3,12 +3,12 @@ title = "Xử lý sự kiện thông qua JS"
 date = "2024-12-15"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/jsehandler.jpg"
+image = "/KhanhBlog/images/jsehandler.jpg"
 +++
 
 ## Thế nào là sự kiện và áp dụng JS như thế nào?
 
-![JS eventHandler](/images/jsehandler.jpg)
+![JS eventHandler](/KhanhBlog/images/jsehandler.jpg)
 
 JavaScript (JS) là ngôn ngữ lập trình chủ yếu được sử dụng để xử lý các sự kiện trong web và tăng cường độ tương tác của trang web. Trong môi trường web, "sự kiện" thường ám chỉ những hành động hoặc phản ứng mà người dùng thực hiện trên trang web, ví dụ như nhấp chuột, di chuột, nhập liệu vào form, hoặc cuộn trang. JavaScript cho phép các nhà phát triển xây dựng những hành vi tương tác động và thay đổi ngay lập tức nội dung trang mà không cần phải tải lại trang, từ đó làm tăng trải nghiệm người dùng.
 

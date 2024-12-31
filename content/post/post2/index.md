@@ -3,12 +3,12 @@ title = "Java là gì?"
 date = "2024-12-30"
 tags = ["Hugo", "Web Development", "Tutorial"]
 author = "Trương Sĩ Gia Khánh"
-image = "/images/javalagi.jpg"
+image = "/KhanhBlog/images/javalagi.jpg"
 +++
 
 ## Java là gì
 
-![Java là gì?](/images/javalagi.jpg)
+![Java là gì?](/KhanhBlog/images/javalagi.jpg)
 
 Java là một ngôn ngữ lập trình phổ biến, mạnh mẽ và đa nền tảng, được phát triển bởi Sun Microsystems vào giữa thập niên 1990 (nay thuộc sở hữu của Oracle Corporation). Java có đặc điểm nổi bật là tính hướng đối tượng, khả năng chạy trên nhiều nền tảng khác nhau (cross-platform), và khả năng xây dựng các ứng dụng phức tạp.
 
